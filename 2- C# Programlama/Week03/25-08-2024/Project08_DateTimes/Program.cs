@@ -13,19 +13,20 @@ class Program
 
     //   System.Console.WriteLine($"3 ay sonraki tarih: {now.AddMonths(3)}");
 
-    // System.Console.WriteLine(now.ToString("dd/MM/yyyy"));
+    //  System.Console.WriteLine(now.ToString("dd/MM/yyyy"));
 
-    // System.Console.WriteLine(now.ToString("HH:mm:ss"));
+    //  System.Console.WriteLine(now.ToString("HH:mm:ss"));
    
-    // System.Console.WriteLine(now.ToString("d"));
+    //  System.Console.WriteLine(now.ToString("d"));
    
-    // System.Console.WriteLine(now.ToString("D"));
+    //  System.Console.WriteLine(now.ToString("D"));
 
-    //System.Console.WriteLine(now.ToString("MMMM yyyy"));
+    //  System.Console.WriteLine(now.ToString("MMMM yyyy"));
+    // System.Console.WriteLine(now.ToString("MMMM"));
 
     // System.Console.WriteLine(now.ToShortDateString());
 
-    // System.Console.WriteLine(now.ToLongTimeString());
+    //  System.Console.WriteLine(now.ToLongTimeString());
 
     // System.Console.WriteLine(now.ToShortTimeString());
 
@@ -45,7 +46,7 @@ class Program
 
     // System.Console.WriteLine(month);
 
-    System.Console.WriteLine(now.DayOfWeek);
+    //System.Console.WriteLine(now.DayOfWeek);
 
 
 

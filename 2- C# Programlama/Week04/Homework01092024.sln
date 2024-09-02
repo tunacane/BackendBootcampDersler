@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru1", "For_Soru1\For_Soru1.csproj", "{FA4F7B52-DDC2-494B-96A5-5FC286AAA846}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru2", "For_Soru2\For_Soru2.csproj", "{086852AB-C153-4C27-9AC1-F0D4C855F79A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FA4F7B52-DDC2-494B-96A5-5FC286AAA846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4F7B52-DDC2-494B-96A5-5FC286AAA846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4F7B52-DDC2-494B-96A5-5FC286AAA846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086852AB-C153-4C27-9AC1-F0D4C855F79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086852AB-C153-4C27-9AC1-F0D4C855F79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086852AB-C153-4C27-9AC1-F0D4C855F79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086852AB-C153-4C27-9AC1-F0D4C855F79A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -8,7 +8,7 @@ class Program
     {
         Console.Write("10'dan büyük bir sayı giriniz: ");
         int number = int.Parse(Console.ReadLine());
-        int result =0;
+        
 
         for (int i = 1; i < number; i++)
         {

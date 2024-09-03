@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru3", "For_Soru3\For_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru4", "For_Soru4\For_Soru4.csproj", "{C75E37B3-9CEC-4103-B220-515D68989121}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru5", "For_Soru5\For_Soru5.csproj", "{10641064-A859-474B-8C19-AA044E62146A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Soru6", "For_Soru6\For_Soru6.csproj", "{0F0ABE5C-1F2E-44D2-A445-E083111BF3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{C75E37B3-9CEC-4103-B220-515D68989121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75E37B3-9CEC-4103-B220-515D68989121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75E37B3-9CEC-4103-B220-515D68989121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10641064-A859-474B-8C19-AA044E62146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10641064-A859-474B-8C19-AA044E62146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10641064-A859-474B-8C19-AA044E62146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10641064-A859-474B-8C19-AA044E62146A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0ABE5C-1F2E-44D2-A445-E083111BF3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0ABE5C-1F2E-44D2-A445-E083111BF3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0ABE5C-1F2E-44D2-A445-E083111BF3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0ABE5C-1F2E-44D2-A445-E083111BF3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

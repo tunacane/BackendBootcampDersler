@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Bir sayı giriniz: ");
-        int number = int.Parse(Console.ReadLine());
+        ^3
 
         for (int i = number; i > 1; i--)
         {

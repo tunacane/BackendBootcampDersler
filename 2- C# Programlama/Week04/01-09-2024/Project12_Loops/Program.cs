@@ -9,7 +9,7 @@ class Program
     {
         // sadece sayı girişi yaptıralım
 
-        /*   ConsoleKeyInfo character;
+      /*    ConsoleKeyInfo character;
           string resultNumber ="";
           System.Console.Write("Bir sayı giriniz: ");
 

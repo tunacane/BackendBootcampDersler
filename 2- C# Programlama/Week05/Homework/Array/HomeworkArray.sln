@@ -15,13 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru5", "Soru5\Soru5.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru6", "Soru6\Soru6.csproj", "{6C0ACD90-3A44-4521-A56E-11B014CDAE37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru7", "Soru7\Soru7.csproj", "{1C2FC3D9-500D-4A5E-9BED-74A025D3B5F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EF18DAEC-0E49-4D0A-9727-3679A58ED6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +47,12 @@ Global
 		{6C0ACD90-3A44-4521-A56E-11B014CDAE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C0ACD90-3A44-4521-A56E-11B014CDAE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C0ACD90-3A44-4521-A56E-11B014CDAE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2FC3D9-500D-4A5E-9BED-74A025D3B5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2FC3D9-500D-4A5E-9BED-74A025D3B5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2FC3D9-500D-4A5E-9BED-74A025D3B5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2FC3D9-500D-4A5E-9BED-74A025D3B5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

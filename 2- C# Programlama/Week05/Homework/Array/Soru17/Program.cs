@@ -8,7 +8,6 @@ class Program
         int max1 = int.MinValue;
         int max2 = int.MinValue;
       
-
         for (int i = 0; i < numbers.Length; i++)
         {
 
@@ -21,20 +20,14 @@ class Program
 
          else if (numbers[i] > max2 && max2 != numbers[i])
             {
-               
-                
+                   
                     max2 = numbers[i];
-
-                
             }
 
         }
         System.Console.WriteLine();
         System.Console.WriteLine($"1.En büyük sayı: {max1}");
         System.Console.WriteLine($"2.En büyük sayı: {max2}");
-
-
-
 
     }
 }

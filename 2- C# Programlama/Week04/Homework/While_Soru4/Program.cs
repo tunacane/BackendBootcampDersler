@@ -4,11 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
+
         Console.Write("Bir sayı giriniz: ");
         int number = int.Parse(Console.ReadLine());
-
-        int[] num =new Array[];
-
+        int result=0;
+   
+        while (true)
+        {
+         
+        }
+        System.Console.WriteLine(result);
 
     }
 }

@@ -8,7 +8,7 @@ class Program
         for (int i = 2; i < 100; i++)
         {
             bool isPrime = true;
-            for (int j = 0; j <= i; j++)
+            for (int j = 2; j <= i-1; j++)
             {
                 if (i % j == 0)
                 {

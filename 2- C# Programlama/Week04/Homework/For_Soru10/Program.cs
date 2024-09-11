@@ -12,17 +12,14 @@ class Program
 
         Console.Write("Bir sayı giriniz: ");
         int number2 = int.Parse(Console.ReadLine());
-        int result = 0;
+        int result = 1;
 
-        for (int i = number1; i < number2; i++)
+        for (int i = number1; i <= number2; i++)
         {
-            i**;
+            result *=i;
         }
 
         System.Console.WriteLine(result);
-
-
-
 
     }
 }

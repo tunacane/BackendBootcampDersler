@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project14_Arrays", "Project14_Arrays\Project14_Arrays.csproj", "{0FC6757A-3B41-4B1E-80E4-0EF93E1F0CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15_CreateAssignTeams", "Project15_CreateAssignTeams\Project15_CreateAssignTeams.csproj", "{AC8D3B55-7247-423A-9712-5D0F8AEC1181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC6757A-3B41-4B1E-80E4-0EF93E1F0CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC6757A-3B41-4B1E-80E4-0EF93E1F0CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC6757A-3B41-4B1E-80E4-0EF93E1F0CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC6757A-3B41-4B1E-80E4-0EF93E1F0CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8D3B55-7247-423A-9712-5D0F8AEC1181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8D3B55-7247-423A-9712-5D0F8AEC1181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8D3B55-7247-423A-9712-5D0F8AEC1181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8D3B55-7247-423A-9712-5D0F8AEC1181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

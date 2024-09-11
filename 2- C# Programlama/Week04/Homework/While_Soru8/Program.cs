@@ -27,10 +27,31 @@ class Program
              numOrt = count / numberCount;
 
         }
-        System.Console.WriteLine(numberCount);
-        System.Console.WriteLine(count);
-        System.Console.WriteLine(numOrt);
+        System.Console.WriteLine($"Sayı adedi : {numberCount}");
+        System.Console.WriteLine($"Sayıların toplamı : {count}");
+        System.Console.WriteLine($"Sayıların ortalaması : {numOrt}");
 
 
-    }
+
+/* 
+    int number = 0;
+    int total = 0;
+
+    int i = 1;
+    while (true)
+    {
+      Console.Write("Bir sayı giriniz: ");
+      number = int.Parse(Console.ReadLine());
+      total += number;
+
+      System.Console.WriteLine($"Girilen değer sayısı: {i}  toplam: {total}");
+      i++;
+
+      if (number > 100)
+      {
+        break;
+      }
+    } */
+
+  }
 }

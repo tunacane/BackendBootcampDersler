@@ -16,7 +16,7 @@ class Program
             System.Console.WriteLine(i+".eleman: " + dizi[i]+" ");
    
         }
-        bool varMi = dizi.Contains(number);
+       // bool varMi = dizi.Contains(number);
         //System.Console.WriteLine(varMi);
 
         if (dizi.Contains(number))

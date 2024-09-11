@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Bir sayı giriniz: ");
+         Console.Write("Bir sayı giriniz: ");
         string number = Console.ReadLine();
 
         char[] array = number.ToCharArray();
@@ -13,7 +13,8 @@ class Program
 
         string reversedNum = new string(array);
 
-        System.Console.WriteLine(reversedNum);
+        System.Console.WriteLine(reversedNum); 
+
 
     }
 }

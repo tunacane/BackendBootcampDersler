@@ -13,7 +13,7 @@ class Program
 
         for (int i = 0; i < numbers.Length; i++)
         {
-            numbers[i] = rnd.Next(1, 99);
+            numbers[i] = rnd.Next(1, 15);
             System.Console.Write(numbers[i] + " ");
         }
 
@@ -47,9 +47,3 @@ System.Console.WriteLine();
 
     }
 }
-
-// Array.Resize(ref numbers, numbers.Length+1);
-// int[] newNumbers = new int[11];
-// newNumbers[11] = sayi;
-
-// System.Console.WriteLine(newNumbers[i] + " ");

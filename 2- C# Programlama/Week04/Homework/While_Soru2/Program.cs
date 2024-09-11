@@ -1,4 +1,7 @@
-﻿namespace While_Soru2;
+﻿using System.Reflection;
+using System.Reflection.PortableExecutable;
+
+namespace While_Soru2;
 
 class Program
 {
@@ -9,15 +12,25 @@ class Program
 
         string text = Console.ReadLine();
 
+        string result="";
         int i =0;
 
-        string result="";
-
-        while (true)
+        while (i < text.Length)
         {
-            
-        }
-    
+          char karakter = text[i];
 
+          if (char.IsLetter(karakter))
+          {
+            result +=char.ToUpper(karakter);
+          }
+          else
+          {
+            result +=karakter;
+        
+      }
+      i++;
     }
+    System.Console.WriteLine(result);
+
+  }
 }

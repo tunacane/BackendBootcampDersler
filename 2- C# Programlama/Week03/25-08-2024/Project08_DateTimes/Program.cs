@@ -17,18 +17,18 @@ class Program
 
     //  System.Console.WriteLine(now.ToString("HH:mm:ss"));
    
-    //  System.Console.WriteLine(now.ToString("d"));
+   //  System.Console.WriteLine(now.ToString("d"));
    
-    //  System.Console.WriteLine(now.ToString("D"));
+  //  System.Console.WriteLine(now.ToString("D"));
 
     //  System.Console.WriteLine(now.ToString("MMMM yyyy"));
-    // System.Console.WriteLine(now.ToString("MMMM"));
+   //  System.Console.WriteLine(now.ToString("MMMM"));
 
     // System.Console.WriteLine(now.ToShortDateString());
 
-    //  System.Console.WriteLine(now.ToLongTimeString());
+     System.Console.WriteLine(now.ToLongTimeString());
 
-    // System.Console.WriteLine(now.ToShortTimeString());
+  //  System.Console.WriteLine(now.ToShortTimeString());
 
     // int day = 5;
     // int month = 6;

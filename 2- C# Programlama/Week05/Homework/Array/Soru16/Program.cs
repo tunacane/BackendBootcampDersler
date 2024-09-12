@@ -6,39 +6,47 @@ class Program
     {
         
         
-        int lastCount= int.MaxValue;
+        //int lastCount= int.MaxValue;
        
         int count=0;
-        int[] dizi = new int[lastCount];
+        int[] dizi = new int[30];
 
         do
         {
             System.Console.WriteLine("Bir sayı giriniz: ");
             int sayi = int.Parse(Console.ReadLine());
             
-            count++;
 
-            if (sayi!=0)
+            if (sayi==0)
+            {
+                break;
+              
+            }
+
+            if (count < dizi.Length)
             {
                 dizi[count] = sayi;
                 count++;
-            }
-            else
-            {
-                Console.WriteLine("Dizi doldu. Daha fazla sayı giremezsiniz.");
-                break;
-            }
 
+            }
 
         } while (true);
+      
+        int toplam=0;
 
-
-        for (int i = 0; i < dizi.Length; i++)
+        for (int i = 0; i < count; i++)
         {
-            dizi[i] = i;
-            System.Console.WriteLine(dizi[i]);
+            //dizi[i] = i;
+            System.Console.WriteLine(dizi[i]+" ");
+          toplam += dizi[i] ;
+           
         }
 
+          System.Console.WriteLine();
+
+          double ort = (double)toplam / count;
+
+          System.Console.WriteLine("Ortalama: "+ ort);
 
 
 

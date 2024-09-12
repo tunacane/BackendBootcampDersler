@@ -1,5 +1,8 @@
 ﻿namespace Soru8;
 
+/*Klavyeden girilen bir sayıyı, 10 elemanlı rastgele değerlerden oluşan bir tam sayı dizisinde aratın. Eğer sayı dizide yoksa, diziyi sıralayın ve sayıyı dizinin doğru(olması gereken sıra) yerine ekleyin. Ekledikten sonra yeni diziyi ekrana yazdırın.*/
+
+
 class Program
 {
     static void Main(string[] args)
@@ -13,7 +16,7 @@ class Program
 
         for (int i = 0; i < numbers.Length; i++)
         {
-            numbers[i] = rnd.Next(1, 15);
+            numbers[i] = rnd.Next(1, 500);
             System.Console.Write(numbers[i] + " ");
         }
 

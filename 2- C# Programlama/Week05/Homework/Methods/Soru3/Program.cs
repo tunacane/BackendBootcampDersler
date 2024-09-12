@@ -4,7 +4,9 @@
 class Program
 {
 
-    static string Reversed(string word){
+    static string Reversed(){
+        System.Console.Write("Bir kelime giriniz: ");
+        string word = Console.ReadLine();
       
         char[] array = word.ToCharArray();
         Array.Reverse(array);
@@ -16,9 +18,10 @@ class Program
 
     static void Main(string[] args)
     {
-        string word = "tunacan";
+       
 
-     System.Console.WriteLine(Reversed(word));
+        string newWord = Reversed();
+        System.Console.WriteLine(newWord);
 
         
 

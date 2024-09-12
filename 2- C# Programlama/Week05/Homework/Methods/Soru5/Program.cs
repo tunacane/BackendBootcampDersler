@@ -4,7 +4,10 @@
 
 class Program
 {
-    static string UpperCase(string word ="tunacan"){
+    static string UpperCase(){
+
+        System.Console.WriteLine("Bir dizi giriniz: ");
+        String word = Console.ReadLine();
 
         string newWord = word.ToUpper();
         return newWord;
@@ -13,7 +16,8 @@ class Program
 
     static void Main(string[] args)
     {
-        string newWord = UpperCase();
-        System.Console.WriteLine(newWord);
+        string result = UpperCase();
+        System.Console.WriteLine(result);
+
     }
 }

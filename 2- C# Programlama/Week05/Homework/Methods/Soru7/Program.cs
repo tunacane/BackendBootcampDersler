@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 namespace Soru7;
 /*Saat, dakika ve saniye alan bir metot yazın. Bu metot zamanı "HH:MM:SS" formatında döndürsün.*/
@@ -7,18 +8,8 @@ namespace Soru7;
 class Program
 {
 
-    static string TimeTempt(int hour, int min, int sec){
-    
-    return $"{hour}: {min}: {sec}";
+    static string TimeTempt(){
 
-     
-
-
-    }
-
-
-    static void Main(string[] args)
-    {
         Console.Write("Saati giriniz: ");
         int hour = int.Parse(Console.ReadLine());
 
@@ -28,9 +19,18 @@ class Program
         Console.Write("Saniyeyi giriniz: ");
         int sec = int.Parse(Console.ReadLine());
 
-        string formattedTime = TimeTempt(hour, min, sec);
 
-        System.Console.WriteLine($"Saat {formattedTime}");
+
+        return $"{hour:D2}:{min:D2}:{sec:D2}";
+
+    }
+
+
+    static void Main(string[] args)
+    {
+
+       string result = TimeTempt();
+       System.Console.WriteLine(result);
 
 
     }

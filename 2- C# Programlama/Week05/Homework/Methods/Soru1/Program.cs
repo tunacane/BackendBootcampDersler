@@ -4,7 +4,10 @@
 
 class Program
 {
-    static void RetireAge(int age){
+    static void RetireAge(){
+
+        System.Console.WriteLine("Yaşınızı giriniz: ");
+         int age = int.Parse(Console.ReadLine());
         if (age > 65)
         {
             System.Console.WriteLine("Kişi emeklilik yaşında");
@@ -19,10 +22,9 @@ class Program
     
     static void Main(string[] args)
     {
-        System.Console.WriteLine("Yaşınızı giriniz: ");
-        int age = int.Parse(Console.ReadLine());
+       
         
-        RetireAge(age);
+        RetireAge();
         
 }
 }

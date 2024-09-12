@@ -7,8 +7,17 @@ namespace Soru4;
 class Program
 
 {
-    static double ExamNote(double visa, double final){
-        
+    static double ExamNote(){
+
+        System.Console.WriteLine("Vize notunuzu giriniz: ");
+
+        double visa = double.Parse(Console.ReadLine());
+
+        System.Console.WriteLine("Final notunuzu giriniz: ");
+
+        double final = double.Parse(Console.ReadLine());
+
+
         double passNote = (visa * 0.4) + (final * 0.6);
 
         if (passNote >50)
@@ -30,19 +39,8 @@ class Program
 
     static void Main(string[] args)
     {
+        double result = ExamNote();
 
-        
-        System.Console.WriteLine("Vize notunuzu giriniz: ");
-
-        double visa = double.Parse(Console.ReadLine());
-        
-        System.Console.WriteLine("Final notunuzu giriniz: ");
-
-        double final = double.Parse(Console.ReadLine());
-
-
-        double passNote = ExamNote(visa, final);
-
-        System.Console.WriteLine("Geçme notunuz: " + passNote);
+        System.Console.WriteLine($" Sonuç: {result}");
     }
 }

@@ -1,20 +1,27 @@
-﻿namespace Soru8;
+﻿using System.Xml.XPath;
+
+namespace Soru8;
 /*Santigrat cinsinden verilen sıcaklığı Fahrenheit'e çeviren bir metot yazın.  °C × 1.8 + 32*/
 
 class Program
 {
 
-    static double Convert(double santigrat =30){
+    static string Convert(){
 
-       //santigrat = 30;
-        double fahrenheit = (santigrat *1.8)+32;
-        return fahrenheit;
+        System.Console.WriteLine("Bir derece giriniz:");
+        double santigrat = double.Parse(Console.ReadLine());
+      
+        double fahrenheit = ((double)santigrat *1.8) +32;
+        
+        return  $"{santigrat} C = {fahrenheit} F";
 
 
     }
     static void Main(string[] args)
     {
-        double fahrenheit= Convert();
-        System.Console.WriteLine($"30 Santigrat: {fahrenheit} F");
+        string result= Convert();
+        System.Console.WriteLine(result);
+        
     }
 }
+//System.Console.WriteLine($"{santigrat} C = {result} F");

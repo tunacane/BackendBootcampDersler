@@ -4,7 +4,14 @@
 
 class Program
 {
-    static int MinMax(int sayi1, int sayi2){
+    static int MinMax(){
+
+        System.Console.WriteLine("Bir sayı  giriniz: ");
+        int sayi1 = int.Parse(Console.ReadLine());
+
+        System.Console.WriteLine("Bir sayı  giriniz: ");
+        int sayi2 = int.Parse(Console.ReadLine());
+
 
         if (sayi1 > sayi2)
         {
@@ -18,6 +25,8 @@ class Program
     }
     static void Main(string[] args)
     {
-        System.Console.WriteLine(MinMax(20, 10));
+        int maxNumber = MinMax();
+        System.Console.WriteLine($"Max number: {maxNumber}");
+
     }
 }

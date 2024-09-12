@@ -5,8 +5,11 @@
 class Program
 {
 
-    static void EvenOdd(int number){
-        
+    static void EvenOdd(){
+
+        Console.Write("Bir sayı giriniz: ");
+        int number = int.Parse(Console.ReadLine());
+
         if (number %2==0)
         {
             System.Console.WriteLine(number+ " çift sayıdır");
@@ -21,9 +24,8 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.Write("Bir sayı giriniz: ");
-        int number = int.Parse(Console.ReadLine());
+      
 
-        EvenOdd(number);
+        EvenOdd();
     }
 }

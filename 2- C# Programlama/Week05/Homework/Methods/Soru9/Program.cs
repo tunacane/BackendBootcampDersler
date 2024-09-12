@@ -15,6 +15,7 @@ class Program
         for (int i = 0; i < numbers.Length; i++)
         {
             Console.WriteLine("Bir sayı giriniz: ");
+            
             numbers[i] = int.Parse(Console.ReadLine());
             
            // System.Console.WriteLine(numbers[i] + " ");

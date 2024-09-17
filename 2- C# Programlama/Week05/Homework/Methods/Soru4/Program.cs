@@ -29,9 +29,7 @@ class Program
             System.Console.WriteLine("Kaldınız ");
         }
         return passNote;
-         
-
-
+     
 
     }
 

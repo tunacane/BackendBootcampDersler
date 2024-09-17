@@ -15,12 +15,11 @@ class Program
         {
             System.Console.WriteLine("Bir sayı giriniz: ");
             int sayi = int.Parse(Console.ReadLine());
-            
 
-            if (sayi==0)
+            if (sayi == 0)
             {
                 break;
-              
+
             }
 
             if (count < dizi.Length)
@@ -30,13 +29,18 @@ class Program
 
             }
 
+          
+
+
         } while (true);
       
         int toplam=0;
+        System.Console.WriteLine();
 
         for (int i = 0; i < count; i++)
         {
-            //dizi[i] = i;
+         
+
             System.Console.WriteLine(dizi[i]+" ");
           toplam += dizi[i] ;
            

@@ -14,6 +14,7 @@ class Program
         }
 
         int count=0;
+        int maxCount=0;
 
         foreach (var item in numbers)
         {

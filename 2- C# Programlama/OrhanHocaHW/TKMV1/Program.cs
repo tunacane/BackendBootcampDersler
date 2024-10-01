@@ -12,8 +12,14 @@ class Program
         System.Console.WriteLine("Diğer oyuncu seçimini belirtiniz: ");
         string choice2= Console.ReadLine().ToLower().Trim();
 
+        if (!game.Contains(choice1) || !game.Contains(choice2))
+        {
+            Console.WriteLine("Geçersiz seçim. Lütfen 'taş', 'kağıt' veya 'makas' yazın.");
+            return;
+        }
 
-        if ((choice1 == "taş" && choice2 == "makas") || (choice1 == "makas" && choice2 == "kağıt" )|| (choice1 == "kağıt" && choice2 == "taş"))
+
+        if ((choice1 == "tas" && choice2 == "makas") || (choice1 == "makas" && choice2 == "kagit" )|| (choice1 == "kagit" && choice2 == "tas"))
         {
             Console.WriteLine("Kazandınız tebriklerrr");
         }

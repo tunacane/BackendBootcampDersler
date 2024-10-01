@@ -24,6 +24,7 @@ class Program
         {
             System.Console.WriteLine("Hangi ürünleri almak istiyorsunuz (isim giriniz): ");
             string choise = Console.ReadLine().ToLower();
+         // int choice1 = int.Parse(Console.ReadLine());
 
             int index= Array.IndexOf(products , choise);
 
@@ -35,5 +36,7 @@ class Program
             
         }
         System.Console.WriteLine($"Ürünlerinizin toplam fiyatı: {sum} TL'dir.");
+
+        
     }
 }

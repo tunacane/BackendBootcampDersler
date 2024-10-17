@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitesi</title>
+    <style>
+        *{
+            margin:0px; /*dış boşluk */
+            padding:0px; /* iç boşluk */
+        }
+
+        body{
+            background-color: #e4e4e4;
+            font-family: 'Courier New';
+            color: #555;
+            font-size: 18px;
+        }
+
+        #Header{
+            
+            text-align: center;
+             padding: 20px 40px; /* önce alt üst 20 yapıldı sonra sağ sol 40 px yapıldı*/
+             background-color: #555;
+             color: #FFF;
+
+
+       /*      padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 40px; */
+            /* padding: 20px; */
+           
+        }
+
+        h1{
+            font-size: 48px;
+        }
+        h2{
+            font-size: 36px;
+        }
+
+        #About, #skills, #links, #profilePicture, #contact{
+            background-color: #FFF;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+        }
+
+        #skillContainer{
+            list-style-type: none;
+
+        }
+        .skill{
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        #links a{
+            text-decoration: none;
+            color: #0075ee;
+            font-weight: bold;
+            
+        }
+
+        #links a:hover{
+            color: #0358b4;
+        }
+
+        #profilePicture img{
+            border-radius: 50%;
+        }
+
+        #contact form input,
+        #contact form textarea{
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+
+   
+
+   
+   /*      body{
+            background-color: yellow;
+        }
+       #Header{
+       background-color: yellow;
+       }
+       .skill{
+        color: blue;
+       } */
+    </style>
+
+</head>
+<body>
+    <!--Başık Bölümü -->
+    <div id="Header">
+            <!-- <h1 style="color: red;">Merhaba Ben Kemal Kodyazan</h1> -->
+
+            <h1>Merhaba Ben Kemal Kodyazan</h1>
+            <p>Yazılım Geliştirici | Teknoloji Aşığı | Spor Tutkunu</p>
+    </div>
+
+    <!-- Kişisel Bilgiler Bölümü -->
+
+    <div id="About">
+        <h2>Hakkımda</h2>
+        <p>Merhaba Ben Tunacan Kodyazan. 5 yıldır yazılım geliştirici olarak çalışıyorum. Çeşitli şirketlerde farklı projelerde rol aldıktan sonra, şu günlerde bireysel olarak proje geliştiriyorum. Aynı zamanda spor ve teknolojiye de meraklıyım.</p>
+    </div>
+
+    <!-- Yetenekler Bölümü -->
+
+    <div id="skills">
+        <h2>Yetenekler</h2>
+        <!-- <ul>li*6</ul> -->
+        <ul id="skillContainer">
+            <li class="skill">C#</li>
+            <li class="skill">CSS</li>
+            <li class="skill">HTML</li>
+            <li class="skill">JAVA</li>
+            <li class="skill">SQL</li>
+            <li class="skill">API</li>
+        </ul>
+
+*class="skill"    </div>
+   
+    <!-- Bağlantılar Bölümü -->
+     <div id="links">
+        <h2>Benimle bağlantı kurun!</h2>
+        <div><a href="https://www.github.com" target="_blank">Github</a></div>
+        <div><a href="https://www.linkedin.com" target="_blank">Linkedin</a></div>
+        
+     </div>
+
+     <!-- Görsel BÖlümü -->
+      <div id="profilePicture">
+        <h2>Profil Fotoğraf</h2>
+        <!-- <img src="https://placehold.co/100" alt="">
+              <img src="https://picsum.photos/100" alt=""> -->
+        <img src="https://picsum.photos/id/1/200/200" alt="">
+      </div>
+
+
+      <!-- İletişim Bölümü -->
+       <div id="contact">
+        <h2>Benimle İletişime Geçin</h2>
+        <form action="">
+        
+            <div>
+                <label for="">Ad Soyad:</label>
+                <input type="text">
+            </div>
+        
+            <div>
+                <label for="">Email:</label>
+                <input type="email">
+            </div>
+        
+            <div>
+                <label for="">Mesaj:</label>
+                <textarea></textarea>
+            </div>
+        
+            <div>
+                <input type="button" value="Gönder">
+        
+            </div>
+        
+        
+        </form>
+       </div>
+        
+     
+      
+   
+</body>
+</html>

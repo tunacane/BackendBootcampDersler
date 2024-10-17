@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonksiyonlar</title>
+</head>
+<body>
+
+    <h1>Functions</h1>
+    <button onClick="changeMode('black', 'white')">Dark Mode</button>
+    <button onClick="changeMode('white', 'black')">Light Mode</button>
+    
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In asperiores nemo reprehenderit numquam sequi! Fuga et excepturi libero eaque eos ad totam accusantium consequuntur rem dolorem vero aliquid omnis, hic sius quaerat est ipsa itaque dolorem sed praesentium enim? A, earum similiqs sed velit repellendus temporibus culpa iusto odit laboriosam reprehenderit corrupti laudantium voluptatum eos quidem eius doloremque enim. Eveniet enim ad deserunt, unde cupiditate velit consequatur tenetur quisquam consequuntur totam aspernatur amet doloremque non nihil maiores corrupti quidem repudiandae! Cum, inventore consectetur.
+
+    </p>
+
+    <script>
+
+        /*
+        
+        function fonksiyonAdi(parametre, ){
+        
+            çalışılacak kodlar  
+        }
+        */
+
+        function changeMode(bgcColor, fgColor){
+            document.bgcColor=bgcColor;
+            document.fgColor =fgColor;
+        }
+
+        function selamVer(){
+            console.log("Merhaba JavaScript");
+        }
+
+      
+
+        
+            function selamVer2(name) {
+                console.log("Merhaba "+ name);
+            }
+
+        
+            function yeniSelamVer(name){
+                if (name==undefined) {
+                    console.log("Merhaba JavaScript");
+                }
+               else{
+                    console.log(`Merhaba ${name}` );
+               }
+                
+            }
+
+            // selamVer();
+            // selamVer2("Arda");
+            // yeniSelamVer("Tunacan");
+            // yeniSelamVer();
+
+            function topla(sayi1, sayi2){
+                console.log(sayi1+sayi2);
+            }
+         //   topla(5,7);
+
+            function sum(num1, num2){
+                let result= num1+num2;
+                return result;
+            }
+
+            let sonuc = sum(40+60);
+            console.log(sonuc);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

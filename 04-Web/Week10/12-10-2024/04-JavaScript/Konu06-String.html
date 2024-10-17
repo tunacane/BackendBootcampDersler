@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+
+    <script>
+        // let text1= "Acunmedya Akademi";
+        // let text2 = 'Merhaba dünya';
+        // let text3 = `Backtick`; // içinde javascript kodlarını da barındırır
+        // let text4 = "Pucca'nın günlüğü";
+        // let text5 = 'Kitabının adı: "Hayriye Kadın"';
+        // let text6 = text1 +" " + text3;
+
+        // let text7 = `
+
+        //     ${text1} ${text2}
+        // `;
+
+        // console.log(text1.length);
+        // console.log(text1.charAt(0));
+        // console.log(text1.toLowerCase());
+        // console.log(text1.toUpperCase())
+        // console.log(text1.slice(0,5));
+        // console.log(text1.slice(4, 9)); //medya kenar sayılar dahil değil
+        // console.log(text1.replace(' ',  '/'));
+        // console.log(text1.replace('a', 'x'));
+
+        let title = 'Backend Temel Eğitimi';
+          console.log(title);
+        console.log(title.split(' '));
+        
+       // title içindeki boşlukların tamamnını - ile değiştir.
+
+        let titleSplit = title.split(' ');
+        title = "";
+
+        for(let i =0; i<title.split.length; i++){
+            if (i!=titleSplit.length-1) {
+                 title += titleSplit[i] + '-';                 
+            }
+            else{
+                title += titleSplit[i];
+            }
+           
+        }
+
+         console.log(titleSplit);
+            console.log(title);
+
+        let newTitle = titleSplit.join('-');
+        console.log(newTitle);
+       
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

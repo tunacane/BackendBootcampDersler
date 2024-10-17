@@ -1,4 +1,6 @@
 ﻿using System.Net.WebSockets;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.InteropServices;
 using System.Xml;
 
 namespace Soru2;
@@ -7,28 +9,31 @@ class Program
 {
     static void Main(string[] args)
     {
-        Random rnd = new Random();
-        int[] numbers = new int[10];
-        int evenCount = 0;
-
-        int[] evenNumber = new int[evenCount];
 
 
+        
+         Random rnd = new Random();
+            int[] numbers = new int[10];
+            int evenCount = 0;
+
+            int[] evenNumber = new int[evenCount];
 
 
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = rnd.Next(1,50);
-            System.Console.Write(numbers[i]+ " ");
 
-            if (numbers[i] % 2 == 0)
-            {
-                evenNumber[evenCount]= numbers[i];
-                evenCount++;
-            }
-        }
 
-         Array.Sort(evenNumber, 0, evenCount);
+                for (int i = 0; i<numbers.Length; i++)
+                {
+                    numbers[i] = rnd.Next(1,50);
+                    System.Console.Write(numbers[i]+ " ");
+
+                    if (numbers[i] % 2 == 0)
+                    {
+                        evenNumber[evenCount]= numbers[i];
+                        evenCount++;
+                    }
+                }
+
+                 Array.Sort(evenNumber, 0, evenCount);
         foreach (var even in evenNumber)
         {
             System.Console.Write(even);
@@ -37,7 +42,7 @@ class Program
 
 
 
-       
+
 
 
 
@@ -50,9 +55,17 @@ class Program
         // foreach (var even in evenNumber)
         // {
         //     System.Console.Write(even + " ");
-        // }
-
-
-
+        // } */
     }
+
 }
+
+
+
+
+
+
+
+
+
+

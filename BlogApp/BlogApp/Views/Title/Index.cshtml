@@ -1,0 +1,29 @@
+@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* @for(int i=0; i<10; i++){
+    <div class="card" style="width: 18rem;">
+        <img src="@Blog.Image" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Blog.Title</h5>
+            <p class="card-text">@Blog.Desc</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+} *@
+
+@foreach(Blog blog in Model){
+      <div class="card" style="width: 18rem;">
+        <img src="@blog.Image" class="card-img-top" alt="...">
+       
+        <div class="card-body">
+            <h5 class="card-title">@blog.Title</h5>
+            <p class="card-text">@blog.Description</p>
+            <p class="card-text">@blog.Author</p>
+           
+        </div>
+    </div>
+}
+

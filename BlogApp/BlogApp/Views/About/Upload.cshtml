@@ -1,0 +1,21 @@
+@model About
+@{
+    ViewData["Title"] = "Upload";
+}
+
+
+<form asp-action="UploadCV" asp-controller="YourController" enctype="multipart/form-data" method="post">
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required />
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required />
+    </div>
+    <div>
+        <label for="CVFile">Upload CV (PDF):</label>
+        <input type="file" id="CVFile" name="CVFile" accept=".pdf" required />
+    </div>
+    <button type="submit">Upload</button>
+</form>

@@ -1,0 +1,26 @@
+@model Resume
+
+@{
+    ViewData["Title"] = "Index";}
+
+<h2 >Özgeçmiş</h2>
+
+<p style="font-size: 19px; font-family: 'Courier New', Courier, monospace ;"> Ad: @Model.Name </p>
+
+<p style=" font-size: 19px; font-family: 'Courier New' , Courier, monospace ;">Soyad: @Model.Surname</p>
+
+
+<p style=" font-size: 19px; font-family: 'Courier New' , Courier, monospace ;">Email: @Model.Email</p>
+
+
+<p style="font-size: 19px; font-family: 'Courier New', Courier, monospace ;">Deneyim
+    <ul>
+            @foreach (var experience in Model.Experience)
+            {
+            <li>@experience</li>
+            }
+
+    </ul>
+
+</p>
+  

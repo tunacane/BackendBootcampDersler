@@ -1,0 +1,22 @@
+@model List<BlogCard>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach(BlogCard item in Model){
+
+    <div class="card" style="width: 18rem;">
+       
+        <div class="card-body">
+            <h5 class="card-title">@item.Title</h5>
+            <img src="@item.ImageUrl" class="card-img-top" alt="">
+            <p class="card-text">@item.Description</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          
+        </div>
+    </div>
+  
+
+}

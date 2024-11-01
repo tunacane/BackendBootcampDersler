@@ -1,0 +1,24 @@
+﻿@{
+    List<MenuItemModel> menuList = [new MenuItemModel { ControllerName = "Home", ActionName = "Index", Text = "Anasayfa" },
+    new MenuItemModel { ControllerName = "MVC01RazorSyntax", ActionName = "Index" ,Text = "Razor"}, 
+    new MenuItemModel { ControllerName = "MVC02HtmlAndTagHelpers", ActionName = "Index", Text = "Helpers" },
+    new MenuItemModel { ControllerName = "MVC03DataTransfer", ActionName = "Index", Text ="DataTransfer" }];
+}
+
+@foreach(var item in menuList){
+    @await Html.PartialAsync("_MenuItemPartial", item);
+}
+
+
+@* @await Html.PartialAsync("_MenuItemPartial", new MenuItemModel{ControllerName="Home", ActionName="Index", Text="Anasayfa"})
+
+@await Html.PartialAsync("_MenuItemPartial", new MenuItemModel { ControllerName = "MVC01RazorSyntax", ActionName = "Index" ,Text="Razor"})
+
+@await Html.PartialAsync("_MenuItemPartial", new MenuItemModel { ControllerName = "MVC02HtmlAndTagHelpers", ActionName = "Index" ,Text="Helpers"})
+
+@await Html.PartialAsync("_MenuItemPartial", new MenuItemModel
+{ ControllerName = "MVC03DataTransfer",ActionName ="Index",   Text = "DataTransfer"})
+
+ *@
+
+

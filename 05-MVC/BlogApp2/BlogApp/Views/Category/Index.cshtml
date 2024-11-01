@@ -1,0 +1,22 @@
+@model List<Categories>
+
+ @{
+    List<Categories> categories = ViewBag.Categories;
+        
+       
+        } 
+
+ @foreach(Categories item in Model){
+    <div class="card" style="width: 18rem; margin: 20px auto;  width: 300px; ">
+        <div class="card-body">
+            <h5 class="Category Title">@item.Name</h5>
+
+            <p class="Category Description">@item.Description</p>
+
+        </div>
+    </div>
+
+ }
+
+
+

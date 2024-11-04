@@ -56,7 +56,7 @@ VALUES
     'İstanbul',
     '90 555 458 52 45',
     'info@kemalkodyazar.com',
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.862199311377!2d29.105485475511504!3d40.96259752223722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabbe7eee803fb%3A0x2f64ecd26d22527a!2sYowa%20Academy!5e0!3m2!1str!2str!4v1729941831623!5m2!1str!2str',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.862199311377!2d29.105485475511504!3d40.96259752223722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabbe7eee803fb%3A0x2f64ecd26d22527a!2sYowa%20Academy!5e0!3m2!1str!2str!4v1729941831623!5m2!1str!2str'
 
     )
     GO
@@ -155,4 +155,7 @@ VALUES
     ('Proje1', 'Proje 6 Açıklaması', 'https://www.github.com/project1','https://localhost:5100/ui/img/projects/project6.jpg' ),
     ('Proje1', 'Proje 7 Açıklaması', 'https://www.github.com/project1','https://localhost:5100/ui/img/projects/project7.jpg' ),
     ('Proje1', 'Proje 8 Açıklaması', 'https://www.github.com/project1','https://localhost:5100/ui/img/projects/project8.jpg' ),
-    ('Proje1', 'Proje 9 Açıklaması', 'https://www.github.com/project1','https://localhost:5100/ui/img/projects/project9.jpg' ),
+    ('Proje1', 'Proje 9 Açıklaması', 'https://www.github.com/project1','https://localhost:5100/ui/img/projects/project9.jpg' )
+    GO
+
+    
